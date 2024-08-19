@@ -2,17 +2,23 @@
   {
     "ContainingType": "My_first_webapi.Controllers.PersonController",
     "Method": "Get",
-    "RelativePath": "api/Person",
+    "RelativePath": "api/Person/v{version}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "My_first_webapi.Controllers.PersonController",
     "Method": "PostAbc",
-    "RelativePath": "api/Person",
+    "RelativePath": "api/Person/v{version}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -20,6 +26,11 @@
       {
         "Name": "person",
         "Type": "Restapi_PersonController.Model.Person",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -28,7 +39,7 @@
   {
     "ContainingType": "My_first_webapi.Controllers.PersonController",
     "Method": "Get",
-    "RelativePath": "api/Person/{id}",
+    "RelativePath": "api/Person/v{version}/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -37,6 +48,11 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -44,7 +60,7 @@
   {
     "ContainingType": "My_first_webapi.Controllers.PersonController",
     "Method": "Post",
-    "RelativePath": "api/Person/{id}",
+    "RelativePath": "api/Person/v{version}/{id}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -52,6 +68,11 @@
       {
         "Name": "person",
         "Type": "Restapi_PersonController.Model.Person",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
         "IsRequired": true
       },
       {
@@ -65,7 +86,7 @@
   {
     "ContainingType": "My_first_webapi.Controllers.PersonController",
     "Method": "Put",
-    "RelativePath": "api/Person/{id}",
+    "RelativePath": "api/Person/v{version}/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -73,6 +94,11 @@
       {
         "Name": "person",
         "Type": "Restapi_PersonController.Model.Person",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
         "IsRequired": true
       },
       {
@@ -86,7 +112,7 @@
   {
     "ContainingType": "My_first_webapi.Controllers.PersonController",
     "Method": "Delete",
-    "RelativePath": "api/Person/{id}",
+    "RelativePath": "api/Person/v{version}/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -94,6 +120,11 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
         "IsRequired": true
       }
     ],

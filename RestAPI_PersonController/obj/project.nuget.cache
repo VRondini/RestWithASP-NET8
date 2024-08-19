@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7fJeXcmPkPo=",
+  "dgSpecHash": "M/U165AJoeI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\VINICIUS.FERREIRA\\Pictures\\RestWithASP-NET8\\RestAPI_PersonController\\Restapi_PersonController.csproj",
+  "projectFilePath": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Restapi_PersonController.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\VINICIUS.FERREIRA\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
+    "C:\\Users\\VINICIUS.FERREIRA\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",
+    "C:\\Users\\VINICIUS.FERREIRA\\.nuget\\packages\\asp.versioning.mvc\\8.1.0\\asp.versioning.mvc.8.1.0.nupkg.sha512",
     "C:\\Users\\VINICIUS.FERREIRA\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\VINICIUS.FERREIRA\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\VINICIUS.FERREIRA\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

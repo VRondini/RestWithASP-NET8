@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VINICIUS.FERREIRA\\Pictures\\RestWithASP-NET8\\RestAPI_PersonController\\Restapi_PersonController.csproj": {}
+    "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Restapi_PersonController.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VINICIUS.FERREIRA\\Pictures\\RestWithASP-NET8\\RestAPI_PersonController\\Restapi_PersonController.csproj": {
+    "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Restapi_PersonController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VINICIUS.FERREIRA\\Pictures\\RestWithASP-NET8\\RestAPI_PersonController\\Restapi_PersonController.csproj",
+        "projectUniqueName": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Restapi_PersonController.csproj",
         "projectName": "Restapi_PersonController",
-        "projectPath": "C:\\Users\\VINICIUS.FERREIRA\\Pictures\\RestWithASP-NET8\\RestAPI_PersonController\\Restapi_PersonController.csproj",
+        "projectPath": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Restapi_PersonController.csproj",
         "packagesPath": "C:\\Users\\VINICIUS.FERREIRA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VINICIUS.FERREIRA\\Pictures\\RestWithASP-NET8\\RestAPI_PersonController\\obj\\",
+        "outputPath": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Asp.Versioning.Mvc": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.8, )"

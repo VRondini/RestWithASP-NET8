@@ -1,11 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 using Restapi_PersonController.Model;
 using Restapi_PersonController.Services;
+using Asp.Versioning;
 
 namespace My_first_webapi.Controllers
 {
+    [ApiVersion("1.0")]
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/v{version:apiVersion}")]
     public class PersonController : ControllerBase
     {
         private readonly ILogger<PersonController> _logger;

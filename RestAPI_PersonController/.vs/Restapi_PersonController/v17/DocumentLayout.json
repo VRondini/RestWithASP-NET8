@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\VINICIUS.FERREIRA\\Pictures\\RestWithASP-NET8\\RestAPI_PersonController\\",
+  "WorkspaceRootPath": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\users\\vinicius.ferreira\\pictures\\restwithasp-net8\\restapi_personcontroller\\services\\implementations\\personserviceimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\dev\\restwithasp-net8\\restapi_personcontroller\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|solutionrelative:controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\dev\\restwithasp-net8\\restapi_personcontroller\\services\\implementations\\personserviceimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|solutionrelative:services\\implementations\\personserviceimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\users\\vinicius.ferreira\\pictures\\restwithasp-net8\\restapi_personcontroller\\model\\context\\sqlservercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|solutionrelative:model\\context\\sqlservercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\users\\vinicius.ferreira\\pictures\\restwithasp-net8\\restapi_personcontroller\\services\\ipersonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|solutionrelative:services\\ipersonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\users\\vinicius.ferreira\\pictures\\restwithasp-net8\\restapi_personcontroller\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|solutionrelative:controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\dev\\restwithasp-net8\\restapi_personcontroller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,30 +22,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IPersonService.cs",
-              "DocumentMoniker": "C:\\Users\\VINICIUS.FERREIRA\\Pictures\\RestWithASP-NET8\\RestAPI_PersonController\\Services\\IPersonService.cs",
-              "RelativeDocumentMoniker": "Services\\IPersonService.cs",
-              "ToolTip": "C:\\Users\\VINICIUS.FERREIRA\\Pictures\\RestWithASP-NET8\\RestAPI_PersonController\\Services\\IPersonService.cs",
-              "RelativeToolTip": "Services\\IPersonService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T14:10:04.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-19T15:03:13.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PersonController.cs",
-              "DocumentMoniker": "C:\\Users\\VINICIUS.FERREIRA\\Pictures\\RestWithASP-NET8\\RestAPI_PersonController\\Controllers\\PersonController.cs",
+              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Controllers\\PersonController.cs",
               "RelativeDocumentMoniker": "Controllers\\PersonController.cs",
-              "ToolTip": "C:\\Users\\VINICIUS.FERREIRA\\Pictures\\RestWithASP-NET8\\RestAPI_PersonController\\Controllers\\PersonController.cs*",
-              "RelativeToolTip": "Controllers\\PersonController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
+              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "Controllers\\PersonController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwC0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T13:44:04.846Z",
               "EditorCaption": ""
@@ -57,25 +52,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SqlServerContext.cs",
-              "DocumentMoniker": "C:\\Users\\VINICIUS.FERREIRA\\Pictures\\RestWithASP-NET8\\RestAPI_PersonController\\Model\\Context\\SqlServerContext.cs",
-              "RelativeDocumentMoniker": "Model\\Context\\SqlServerContext.cs",
-              "ToolTip": "C:\\Users\\VINICIUS.FERREIRA\\Pictures\\RestWithASP-NET8\\RestAPI_PersonController\\Model\\Context\\SqlServerContext.cs",
-              "RelativeToolTip": "Model\\Context\\SqlServerContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T12:18:28.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "PersonServiceImplementation.cs",
-              "DocumentMoniker": "C:\\Users\\VINICIUS.FERREIRA\\Pictures\\RestWithASP-NET8\\RestAPI_PersonController\\Services\\Implementations\\PersonServiceImplementation.cs",
+              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Services\\Implementations\\PersonServiceImplementation.cs",
               "RelativeDocumentMoniker": "Services\\Implementations\\PersonServiceImplementation.cs",
-              "ToolTip": "C:\\Users\\VINICIUS.FERREIRA\\Pictures\\RestWithASP-NET8\\RestAPI_PersonController\\Services\\Implementations\\PersonServiceImplementation.cs",
+              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Services\\Implementations\\PersonServiceImplementation.cs",
               "RelativeToolTip": "Services\\Implementations\\PersonServiceImplementation.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAYwE4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T17:17:24.124Z",
               "EditorCaption": ""

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Restapi_PersonController")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+813ed2c6a04bbde68fa1d6d218108f391990e2ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e66fd320176702c0285f1aca3a3cc857e616d92")]
 [assembly: System.Reflection.AssemblyProductAttribute("Restapi_PersonController")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Restapi_PersonController")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
