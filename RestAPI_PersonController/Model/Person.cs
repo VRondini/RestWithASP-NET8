@@ -1,13 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Restapi_PersonController.Model.Base;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Restapi_PersonController.Model
 {
     [Table("person")]
-    public class Person
+    public class Person : BaseEntity
     {
-        [Column("id")]
-        public int Id { get; set; }
-
         [Column("first_name")]
         public string FirstName { get; set; }
 

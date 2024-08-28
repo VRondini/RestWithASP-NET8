@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Restapi_PersonController.Model;
-using Restapi_PersonController.Services;
 using Asp.Versioning;
+using Restapi_PersonController.Business;
 
-namespace My_first_webapi.Controllers
+namespace Restapi_PersonController.Controllers
 {
     [ApiVersion("1.0")]
     [ApiController]
@@ -11,35 +11,35 @@ namespace My_first_webapi.Controllers
     public class PersonController : ControllerBase
     {
         private readonly ILogger<PersonController> _logger;
-        private IPersonService _personService;
-        public PersonController(ILogger<PersonController> logger, IPersonService personService)
+        private IPersonBusiness _personBusiness;
+        public PersonController(ILogger<PersonController> logger, IPersonBusiness personBusiness)
         {
             _logger = logger;
-            _personService = personService;
+            _personBusiness = personBusiness;
         }
 
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(_personService.FindAll());
+            return Ok(_personBusiness.FindAll());
         }
 
         [HttpPost]
         public IActionResult PostAbc([FromBody] Person person)
         {
             if (person == null) return BadRequest();
-            return Ok(_personService.Create(person));
+            return Ok(_personBusiness.Create(person));
         }
 
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            var person  = _personService.FindById(id);
+            var person  = _personBusiness.FindById(id);
             if (person == null) 
             { 
                 return NotFound("Person not found");
             }
-            return Ok(_personService.FindById(id));
+            return Ok(_personBusiness.FindById(id));
         }
 
         [HttpPost("{id}")]
@@ -49,23 +49,20 @@ namespace My_first_webapi.Controllers
             {
                 return NotFound("Person not found");
             }
-            return Ok(_personService.Create(person));
+            return Ok(_personBusiness.Create(person));
         }
 
-        [HttpPut("{id}")]
+        [HttpPut]
         public IActionResult Put([FromBody] Person person)
         {
-            if (person == null)
-            {
-                return NotFound("Person not found");
-            }
-            return Ok(_personService.Update(person));
+            if (person == null) return BadRequest();
+            return Ok(_personBusiness.Update(person));
         }
 
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            _personService.Delete(id);
+            _personBusiness.Delete(id);
             return NoContent();
         }
 

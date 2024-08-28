@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Restapi_PersonController.props" />
+</Project>

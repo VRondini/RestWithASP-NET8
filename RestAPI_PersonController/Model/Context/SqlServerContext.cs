@@ -14,5 +14,7 @@ namespace Restapi_PersonController.Model.Context
         }
 
         public DbSet<Person> Persons { get; set; }
+
+        public DbSet<Books> Books { get; set; }
     }
 }
