@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using Restapi_PersonController.Model;
 using Asp.Versioning;
 using Restapi_PersonController.Business;
+using Restapi_PersonController.Data.VO;
+using Restapi_PersonController.Hypermedia.Filters;
 
 namespace Restapi_PersonController.Controllers
 {
@@ -19,19 +20,34 @@ namespace Restapi_PersonController.Controllers
         }
 
         [HttpGet]
+        [ProducesResponseType((200), Type = typeof(List<PersonVO>))]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
         public IActionResult Get()
         {
             return Ok(_personBusiness.FindAll());
         }
 
         [HttpPost]
-        public IActionResult PostAbc([FromBody] Person person)
+        [ProducesResponseType((200), Type = typeof(PersonVO))]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
+        public IActionResult PostAbc([FromBody] PersonVO person)
         {
             if (person == null) return BadRequest();
             return Ok(_personBusiness.Create(person));
         }
 
         [HttpGet("{id}")]
+        [ProducesResponseType((200), Type = typeof(PersonVO))]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
         public IActionResult Get(int id)
         {
             var person  = _personBusiness.FindById(id);
@@ -42,24 +58,21 @@ namespace Restapi_PersonController.Controllers
             return Ok(_personBusiness.FindById(id));
         }
 
-        [HttpPost("{id}")]
-        public IActionResult Post([FromBody] Person person)
-        {
-            if (person == null)
-            {
-                return NotFound("Person not found");
-            }
-            return Ok(_personBusiness.Create(person));
-        }
-
         [HttpPut]
-        public IActionResult Put([FromBody] Person person)
+        [ProducesResponseType((200), Type = typeof(PersonVO))]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
+        public IActionResult Put([FromBody] PersonVO person)
         {
             if (person == null) return BadRequest();
             return Ok(_personBusiness.Update(person));
         }
 
         [HttpDelete("{id}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
         public IActionResult Delete(int id)
         {
             _personBusiness.Delete(id);

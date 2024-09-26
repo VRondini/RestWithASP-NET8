@@ -1,4 +1,6 @@
-﻿using Restapi_PersonController.Model;
+﻿using Restapi_PersonController.Data.Converter.Implementations;
+using Restapi_PersonController.Data.VO;
+using Restapi_PersonController.Model;
 using Restapi_PersonController.Repository;
 
 namespace Restapi_PersonController.Business.Implementations
@@ -6,28 +8,34 @@ namespace Restapi_PersonController.Business.Implementations
     public class BooksBusinessImplementation : IBooksBusiness
     {
         private readonly IRepository<Books> _repository;
+        private readonly BooksConverter _converter;
 
         public BooksBusinessImplementation(IRepository<Books> repository)
         {
             _repository = repository;
+            _converter = new BooksConverter();
         }
-        public List<Books> FindAll()
+        public List<BooksVO> FindAll()
         {
-            return _repository.FindAll();
-        }
-
-        public Books FindById(int id)
-        {
-            return _repository.FindById(id);
+            return _converter.Parse(_repository.FindAll());
         }
 
-        public Books Create(Books books)
+        public BooksVO FindById(int id)
         {
-            return _repository.Create(books);
+            return _converter.Parse(_repository.FindById(id));
         }
-        public Books Update(Books books)
+
+        public BooksVO Create(BooksVO books)
         {
-            return _repository.Update(books);
+            var booksEntity = _converter.Parse(books);
+            booksEntity = _repository.Create(booksEntity);
+            return _converter.Parse(booksEntity);
+        }
+        public BooksVO Update(BooksVO books)
+        {
+            var booksEntity = _converter.Parse(books);
+            booksEntity = _repository.Update(booksEntity);
+            return _converter.Parse(booksEntity);
         }
 
         public void Delete(int id)

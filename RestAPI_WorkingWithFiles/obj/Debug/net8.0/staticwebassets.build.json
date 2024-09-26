@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "z6mHj2M0AozZTL3Bg0cF6QgrNcKxv0c2/cvHqhyJY2A=",
-  "Source": "Restapi_PersonController",
-  "BasePath": "_content/Restapi_PersonController",
+  "Hash": "WLc7g5qORjWPV68jCnRj50r1PQ67OCeUJI7CWWAmQYo=",
+  "Source": "Restapi_WorkingWithFiles",
+  "BasePath": "_content/Restapi_WorkingWithFiles",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

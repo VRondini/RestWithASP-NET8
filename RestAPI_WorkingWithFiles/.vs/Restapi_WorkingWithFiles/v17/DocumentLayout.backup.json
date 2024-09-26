@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DEV\\RestWithASP-NET8\\RestAPI_WorkingWithFiles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_WorkingWithFiles.csproj|c:\\dev\\restwithasp-net8\\restapi_workingwithfiles\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_WorkingWithFiles.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_WorkingWithFiles.csproj|c:\\dev\\restwithasp-net8\\restapi_workingwithfiles\\data\\vo\\booksvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_WorkingWithFiles.csproj|solutionrelative:data\\vo\\booksvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_WorkingWithFiles.csproj|c:\\dev\\restwithasp-net8\\restapi_workingwithfiles\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_WorkingWithFiles.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_WorkingWithFiles.csproj|c:\\dev\\restwithasp-net8\\restapi_workingwithfiles\\business\\ifilebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_WorkingWithFiles.csproj|solutionrelative:business\\ifilebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_WorkingWithFiles.csproj|c:\\dev\\restwithasp-net8\\restapi_workingwithfiles\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_WorkingWithFiles.csproj|solutionrelative:controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksVO.cs",
+              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_WorkingWithFiles\\Data\\VO\\BooksVO.cs",
+              "RelativeDocumentMoniker": "Data\\VO\\BooksVO.cs",
+              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_WorkingWithFiles\\Data\\VO\\BooksVO.cs",
+              "RelativeToolTip": "Data\\VO\\BooksVO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:39:41.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_WorkingWithFiles\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_WorkingWithFiles\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:39:10.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_WorkingWithFiles\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_WorkingWithFiles\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAcwHIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T14:25:17.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFileBusiness.cs",
+              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_WorkingWithFiles\\Business\\IFileBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\IFileBusiness.cs",
+              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_WorkingWithFiles\\Business\\IFileBusiness.cs",
+              "RelativeToolTip": "Business\\IFileBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T14:30:50.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileController.cs",
+              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_WorkingWithFiles\\Controllers\\FileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FileController.cs",
+              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_WorkingWithFiles\\Controllers\\FileController.cs",
+              "RelativeToolTip": "Controllers\\FileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T14:18:31.496Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

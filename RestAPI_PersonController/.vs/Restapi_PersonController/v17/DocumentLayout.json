@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\dev\\restwithasp-net8\\restapi_personcontroller\\business\\implementations\\booksbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|solutionrelative:business\\implementations\\booksbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\dev\\restwithasp-net8\\restapi_personcontroller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\dev\\restwithasp-net8\\restapi_personcontroller\\business\\implementations\\personbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|solutionrelative:business\\implementations\\personbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\dev\\restwithasp-net8\\restapi_personcontroller\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\dev\\restwithasp-net8\\restapi_personcontroller\\model\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|solutionrelative:model\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\dev\\restwithasp-net8\\restapi_personcontroller\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|solutionrelative:controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\dev\\restwithasp-net8\\restapi_personcontroller\\hypermedia\\enricher\\personenricher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|solutionrelative:hypermedia\\enricher\\personenricher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\dev\\restwithasp-net8\\restapi_personcontroller\\hypermedia\\enricher\\booksenricher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|solutionrelative:hypermedia\\enricher\\booksenricher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|c:\\dev\\restwithasp-net8\\restapi_personcontroller\\hypermedia\\constants\\relationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365B1F13-25B4-4574-A4F5-3F2941FBCDB4}|Restapi_PersonController.csproj|solutionrelative:hypermedia\\constants\\relationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,42 +38,80 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Model\\Base\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Model\\Base\\BaseEntity.cs",
-              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Model\\Base\\BaseEntity.cs",
-              "RelativeToolTip": "Model\\Base\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAywBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T18:57:43.931Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-09-23T12:13:03.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PersonBusinessImplementation.cs",
-              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Business\\Implementations\\PersonBusinessImplementation.cs",
-              "RelativeDocumentMoniker": "Business\\Implementations\\PersonBusinessImplementation.cs",
-              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Business\\Implementations\\PersonBusinessImplementation.cs",
-              "RelativeToolTip": "Business\\Implementations\\PersonBusinessImplementation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PersonController.cs",
+              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "Controllers\\PersonController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwDoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T11:02:43.789Z",
+              "WhenOpened": "2024-09-23T12:07:17.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BooksBusinessImplementation.cs",
-              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Business\\Implementations\\BooksBusinessImplementation.cs",
-              "RelativeDocumentMoniker": "Business\\Implementations\\BooksBusinessImplementation.cs",
-              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Business\\Implementations\\BooksBusinessImplementation.cs",
-              "RelativeToolTip": "Business\\Implementations\\BooksBusinessImplementation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAiwF0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T11:02:42.773Z",
+              "WhenOpened": "2024-09-23T11:56:29.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonEnricher.cs",
+              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Hypermedia\\Enricher\\PersonEnricher.cs",
+              "RelativeDocumentMoniker": "Hypermedia\\Enricher\\PersonEnricher.cs",
+              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Hypermedia\\Enricher\\PersonEnricher.cs",
+              "RelativeToolTip": "Hypermedia\\Enricher\\PersonEnricher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T11:47:39.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BooksEnricher.cs",
+              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Hypermedia\\Enricher\\BooksEnricher.cs",
+              "RelativeDocumentMoniker": "Hypermedia\\Enricher\\BooksEnricher.cs",
+              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Hypermedia\\Enricher\\BooksEnricher.cs",
+              "RelativeToolTip": "Hypermedia\\Enricher\\BooksEnricher.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwC8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T11:41:31.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RelationType.cs",
+              "DocumentMoniker": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Hypermedia\\Constants\\RelationType.cs",
+              "RelativeDocumentMoniker": "Hypermedia\\Constants\\RelationType.cs",
+              "ToolTip": "C:\\DEV\\RestWithASP-NET8\\RestAPI_PersonController\\Hypermedia\\Constants\\RelationType.cs",
+              "RelativeToolTip": "Hypermedia\\Constants\\RelationType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:04:19.334Z",
               "EditorCaption": ""
             }
           ]

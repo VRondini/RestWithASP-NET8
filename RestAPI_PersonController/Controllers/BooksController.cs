@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Restapi_PersonController.Model;
 using Asp.Versioning;
 using Restapi_PersonController.Business;
+using Restapi_PersonController.Data.VO;
+using Restapi_PersonController.Hypermedia.Filters;
 
 namespace Restapi_PersonController.Controllers
 {
@@ -19,19 +20,34 @@ namespace Restapi_PersonController.Controllers
         }
 
         [HttpGet]
+        [ProducesResponseType((200), Type = typeof(List<BooksVO>))]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
         public IActionResult Get()
         {
             return Ok(_booksBusiness.FindAll());
         }
 
         [HttpPost]
-        public IActionResult PostAbc([FromBody] Books books)
+        [ProducesResponseType((200), Type = typeof(BooksVO))]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
+        public IActionResult PostAbc([FromBody] BooksVO books)
         {
             if (books == null) return BadRequest();
             return Ok(_booksBusiness.Create(books));
         }
 
         [HttpGet("{id}")]
+        [ProducesResponseType((200), Type = typeof(BooksVO))]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
         public IActionResult Get(int id)
         {
             var books = _booksBusiness.FindById(id);
@@ -42,24 +58,21 @@ namespace Restapi_PersonController.Controllers
             return Ok(_booksBusiness.FindById(id));
         }
 
-        [HttpPost("{id}")]
-        public IActionResult Post([FromBody] Books books)
-        {
-            if (books == null)
-            {
-                return NotFound("Book not found");
-            }
-            return Ok(_booksBusiness.Create(books));
-        }
-
         [HttpPut]
-        public IActionResult Put([FromBody] Books books)
+        [ProducesResponseType((200), Type = typeof(BooksVO))]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
+        public IActionResult Put([FromBody] BooksVO books)
         {
             if (books == null) return BadRequest();
             return Ok(_booksBusiness.Update(books));
         }
 
         [HttpDelete("{id}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
         public IActionResult Delete(int id)
         {
             _booksBusiness.Delete(id);

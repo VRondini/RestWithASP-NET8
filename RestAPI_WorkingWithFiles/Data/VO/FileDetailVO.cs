@@ -4,7 +4,6 @@
     {
         public string DocumentName { get; set; }
         public string DocumentType { get; set; }
-        public string DocURL {  get; set; }
-
+        public string DocumentUrl { get; set; }
     }
 }

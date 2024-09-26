@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VuMDRo1VtATfLfhXNJb6r89KZXplw2aiayvuavg21sY=",
+  "Source": "Restapi_Authentication",
+  "BasePath": "_content/Restapi_Authentication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

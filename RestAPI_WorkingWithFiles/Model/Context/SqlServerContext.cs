@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Restapi_PersonController.Model.Context
+namespace Restapi_WorkingWithFiles.Model.Context
 {
     public class SqlServerContext : DbContext
     {
@@ -14,5 +14,7 @@ namespace Restapi_PersonController.Model.Context
         }
 
         public DbSet<Person> Persons { get; set; }
+
+        public DbSet<Books> Books { get; set; }
     }
 }

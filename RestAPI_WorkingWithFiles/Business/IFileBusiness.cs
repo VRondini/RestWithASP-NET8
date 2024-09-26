@@ -6,6 +6,6 @@ namespace Restapi_WorkingWithFiles.Business
     {
         public byte[] GetFile(string filename);
         public Task<FileDetailVO> SaveFileToDisk(IFormFile file);
-        public Task<List<FileDetailVO>> SaveFilesToDisk(IList<IFormFile> file);
+        public Task<List<FileDetailVO>> SaveFilesToDisk(IList<IFormFile>file);
     }
 }

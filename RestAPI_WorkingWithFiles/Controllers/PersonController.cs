@@ -1,9 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-using Restapi_PersonController.Model;
-using Restapi_PersonController.Services;
 using Asp.Versioning;
+using Restapi_WorkingWithFiles.Business;
+using Restapi_WorkingWithFiles.Data.VO;
+using Restapi_WorkingWithFiles.Hypermedia.Filters;
 
-namespace My_first_webapi.Controllers
+namespace Restapi_WorkingWithFiles.Controllers
 {
     [ApiVersion("1.0")]
     [ApiController]
@@ -11,61 +12,70 @@ namespace My_first_webapi.Controllers
     public class PersonController : ControllerBase
     {
         private readonly ILogger<PersonController> _logger;
-        private IPersonService _personService;
-        public PersonController(ILogger<PersonController> logger, IPersonService personService)
+        private IPersonBusiness _personBusiness;
+        public PersonController(ILogger<PersonController> logger, IPersonBusiness personBusiness)
         {
             _logger = logger;
-            _personService = personService;
+            _personBusiness = personBusiness;
         }
 
         [HttpGet]
+        [ProducesResponseType((200), Type = typeof(List<PersonVO>))]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
         public IActionResult Get()
         {
-            return Ok(_personService.FindAll());
+            return Ok(_personBusiness.FindAll());
         }
 
         [HttpPost]
-        public IActionResult PostAbc([FromBody] Person person)
+        [ProducesResponseType((200), Type = typeof(PersonVO))]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
+        public IActionResult PostAbc([FromBody] PersonVO person)
         {
             if (person == null) return BadRequest();
-            return Ok(_personService.Create(person));
+            return Ok(_personBusiness.Create(person));
         }
 
         [HttpGet("{id}")]
+        [ProducesResponseType((200), Type = typeof(PersonVO))]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
         public IActionResult Get(int id)
         {
-            var person  = _personService.FindById(id);
+            var person  = _personBusiness.FindById(id);
             if (person == null) 
             { 
                 return NotFound("Person not found");
             }
-            return Ok(_personService.FindById(id));
+            return Ok(_personBusiness.FindById(id));
         }
 
-        [HttpPost("{id}")]
-        public IActionResult Post([FromBody] Person person)
+        [HttpPut]
+        [ProducesResponseType((200), Type = typeof(PersonVO))]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
+        public IActionResult Put([FromBody] PersonVO person)
         {
-            if (person == null)
-            {
-                return NotFound("Person not found");
-            }
-            return Ok(_personService.Create(person));
-        }
-
-        [HttpPut("{id}")]
-        public IActionResult Put([FromBody] Person person)
-        {
-            if (person == null)
-            {
-                return NotFound("Person not found");
-            }
-            return Ok(_personService.Update(person));
+            if (person == null) return BadRequest();
+            return Ok(_personBusiness.Update(person));
         }
 
         [HttpDelete("{id}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
         public IActionResult Delete(int id)
         {
-            _personService.Delete(id);
+            _personBusiness.Delete(id);
             return NoContent();
         }
 
