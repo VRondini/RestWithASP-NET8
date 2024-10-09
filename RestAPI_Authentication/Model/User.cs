@@ -9,7 +9,7 @@ namespace RestWithASPNETUdemy.Model
     {
         [Key]
         [Column("id")]
-        public long Id { get; set; }
+        public int Id { get; set; }
 
         [Column("user_name")]
         public string UserName { get; set; }
@@ -21,9 +21,9 @@ namespace RestWithASPNETUdemy.Model
         public string Password { get; set; }
 
         [Column("refresh_token")]
-        public string RefreshToken { get; set; }
+        public string? RefreshToken { get; set; }
 
         [Column("refresh_token_expiry_time")]
-        public DateTime RefreshTokenExpiryTime { get; set; }
+        public DateTime? RefreshTokenExpiryTime { get; set; }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6mAV1+HhTX8=",
+  "dgSpecHash": "lhT9XY7ZM5E=",
   "success": true,
-  "projectFilePath": "C:\\DEV\\RestWithASP-NET8\\RestAPI_Authentication\\Restapi_Authentication.csproj",
+  "projectFilePath": "C:\\NovoDEV\\RestWithASP-NET8\\RestAPI_Authentication\\Restapi_Authentication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VINICIUS.FERREIRA\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
     "C:\\Users\\VINICIUS.FERREIRA\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Restapi_Authentication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77b123bc48b3fc991eecb63e284996b5b08925d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eae329bd2d6916f4b41aeb08fb1543563bebfa75")]
 [assembly: System.Reflection.AssemblyProductAttribute("Restapi_Authentication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Restapi_Authentication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
