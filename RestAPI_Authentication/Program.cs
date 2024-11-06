@@ -21,6 +21,7 @@ using RestWithASPNETUdemy.Services;
 using Microsoft.EntityFrameworkCore;
 using RestWithASPNETUdemy.Model.Context;
 using Restapi_PersonController.Business.Implementations;
+using Restapi_Authentication.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 var appName = "REST API's RESTful from 0 to Azure with ASP.NET Core 8 and Docker";
@@ -82,8 +83,8 @@ builder.Services.AddSwaggerGen(c => {
             Description = appDescription,
             Contact = new OpenApiContact
             {
-                Name = "Leandro Costa",
-                Url = new Uri("https://pub.erudio.com.br/meus-cursos")
+                Name = "Vinicius Rondini Ferreira",
+                Url = new Uri("https://github.com/VRondini")
             }
         });
 });
@@ -123,6 +124,7 @@ builder.Services.AddScoped<ILoginBusiness, LoginBusinessImplementation>();
 builder.Services.AddTransient<ITokenService, TokenService>();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IPersonRepository, PersonRepository>();
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
 
